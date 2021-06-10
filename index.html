@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Home - Python</title>
+    <meta name="description" content="Artificial Intelligence has been around for over half a century now and its advancements are growing at an exponential rate. The demand for AI is at its peak.
+With the rapid development of the hardware’s memory and processing capabilities, artificial intelligence nowadays is in exponential growth. Besides Big Data and IOT, AI plays an important role in our lives. We want a smart recommendation system, virtual assistant or even self-driving and so forth.">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+</head>
+
+<body id="page-top">
+    <nav class="navbar navbar-light navbar-expand-lg fixed-top" id="mainNav">
+        <div class="container"><a class="navbar-brand js-scroll-trigger" href="#page-top">Why Python</a><button data-toggle="collapse" data-target="#navbarResponsive" class="navbar-toggler navbar-toggler-right" type="button" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-align-justify"></i></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#simplifying">Simplifying</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#tonsoflib">Tons of lib</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#platform_independence">Platform indepence</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#community">Community</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="masthead text-center text-white d-flex" style="height: 945px;background: url(assets/img/Machine-Learning.jpg), linear-gradient(black, white);opacity: 1;background-color: #ffffff;">
+        <div class="container my-auto">
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    <h1 class="text-uppercase" style="margin-top: 0px;"><strong style="color: rgb(255,255,255);">Python<br>language for ML<br></strong></h1>
+                    <hr>
+                </div>
+            </div>
+            <div class="col-lg-8 mx-auto">
+                <p class="text-justify text-white text-faded mb-5" style="margin: 0 0 0px;background-color: #1b5590;border-style: solid;border-color: rgba(185,141,117,0.7);border-radius: 30px;padding: 20px;">Artificial Intelligence has been around for over half a century now and its advancements are growing at an exponential rate. The demand for AI is at its peak.<br>With the rapid development of the hardware’s memory and processing capabilities, artificial intelligence nowadays is in exponential growth. Besides Big Data and IOT, AI plays an important role in our lives. We want a smart recommendation system, virtual assistant or even self-driving and so forth.<br>However, the complexity of AI is really not small because it is not like traditional software. At the back of the AI model is an extremely smart algorithm which is necessary to use several suitable tools for analyzing and deciding what we need and which one is better. Python meets all the strict requirements above. Here are the reasons why:<br></p><a class="btn btn-primary btn-xl js-scroll-trigger" role="button" href="#services">Find Out More</a>
+            </div>
+        </div>
+    </header>
+    <section id="simplifying" class="bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col offset-lg-8 mx-auto text-center">
+                    <h2 class="text-white section-heading">Simplifying</h2>
+                    <hr class="light my-4">
+                    <p class="text-faded mb-4"><br>Python offers concise and readable code which is easy to understand. One of the most main features of Python is it uses the interpreter to build the code. Therefore, programmers can check and debug the code effortlessly. To see the advantages of Python over C++, let’s see following example to implement interchange sort:<br><br></p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row bg-white">
+                <div class="col-md-6">
+<pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(255, 255, 255); color: rgb(0, 0, 0);"><span class="hljs-comment" style="color: green;"># Python program for implementation of Bubble Sort</span>
+
+<span class="hljs-function"><span class="hljs-keyword" style="color: rgb(0, 0, 255);">def</span> <span class="hljs-title" style="color: rgb(163, 21, 21);">bubbleSort</span><span class="hljs-params">(arr)</span>:</span>
+n = len(arr)
+
+<span class="hljs-comment" style="color: green;"># Traverse through all array elements</span>
+<span class="hljs-keyword" style="color: rgb(0, 0, 255);">for</span> i <span class="hljs-keyword" style="color: rgb(0, 0, 255);">in</span> range(n):
+
+<span class="hljs-comment" style="color: green;"># Last i elements are already in place</span>
+<span class="hljs-keyword" style="color: rgb(0, 0, 255);">for</span> j <span class="hljs-keyword" style="color: rgb(0, 0, 255);">in</span> range(<span class="hljs-number">0</span>, n-i<span class="hljs-number">-1</span>):
+
+<span class="hljs-comment" style="color: green;"># traverse the array from 0 to n-i-1</span>
+<span class="hljs-comment" style="color: green;"># Swap if the element found is greater</span>
+<span class="hljs-comment" style="color: green;"># than the next element</span>
+<span class="hljs-keyword" style="color: rgb(0, 0, 255);">if</span> arr[j] &gt; arr[j+<span class="hljs-number">1</span>] :
+arr[j], arr[j+<span class="hljs-number">1</span>] = arr[j+<span class="hljs-number">1</span>], arr[j]
+
+<span class="hljs-comment" style="color: green;"># Driver code to test above</span>
+arr = [<span class="hljs-number">64</span>, <span class="hljs-number">34</span>, <span class="hljs-number">25</span>, <span class="hljs-number">12</span>, <span class="hljs-number">22</span>, <span class="hljs-number">11</span>, <span class="hljs-number">90</span>]
+
+bubbleSort(arr)
+
+<span class="hljs-keyword" style="color: rgb(0, 0, 255);">print</span> (<span class="hljs-string" style="color: rgb(163, 21, 21);">"Sorted array is:"</span>)
+<span class="hljs-keyword" style="color: rgb(0, 0, 255);">for</span> i <span class="hljs-keyword" style="color: rgb(0, 0, 255);">in</span> range(len(arr)):
+<span class="hljs-keyword" style="color: rgb(0, 0, 255);">print</span> (<span class="hljs-string" style="color: rgb(163, 21, 21);">"%d"</span> %arr[i]),</pre>
+                </div>
+                <div class="col-md-6">
+<pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(255, 255, 255); color: rgb(0, 0, 0);"><span class="hljs-comment" style="color: green;">// C++ program for implementation of Bubble sort</span>
+<span class="hljs-meta" style="color: rgb(43, 145, 175);">#<span class="hljs-meta-keyword">include</span> <span class="hljs-meta-string">&lt;bits/stdc++.h&gt;</span></span>
+<span class="hljs-keyword" style="color: rgb(0, 0, 255);">using</span> <span class="hljs-keyword" style="color: rgb(0, 0, 255);">namespace</span> <span class="hljs-built_in" style="color: rgb(0, 0, 255);">std</span>;
+
+<span class="hljs-function"><span class="hljs-keyword" style="color: rgb(0, 0, 255);">void</span> <span class="hljs-title" style="color: rgb(163, 21, 21);">swap</span><span class="hljs-params">(<span class="hljs-keyword" style="color: rgb(0, 0, 255);">int</span> *xp, <span class="hljs-keyword" style="color: rgb(0, 0, 255);">int</span> *yp)</span>
+</span>{
+<span class="hljs-keyword" style="color: rgb(0, 0, 255);">int</span> temp = *xp;
+*xp = *yp;
+*yp = temp;
+}
+
+<span class="hljs-comment" style="color: green;">// A function to implement bubble sort</span>
+<span class="hljs-function"><span class="hljs-keyword" style="color: rgb(0, 0, 255);">void</span> <span class="hljs-title" style="color: rgb(163, 21, 21);">bubbleSort</span><span class="hljs-params">(<span class="hljs-keyword" style="color: rgb(0, 0, 255);">int</span> arr[], <span class="hljs-keyword" style="color: rgb(0, 0, 255);">int</span> n)</span>
+</span>{
+<span class="hljs-keyword" style="color: rgb(0, 0, 255);">int</span> i, j;
+<span class="hljs-keyword" style="color: rgb(0, 0, 255);">for</span> (i = <span class="hljs-number">0</span>; i &lt; n<span class="hljs-number">-1</span>; i++)	
+
+<span class="hljs-comment" style="color: green;">// Last i elements are already in place</span>
+<span class="hljs-keyword" style="color: rgb(0, 0, 255);">for</span> (j = <span class="hljs-number">0</span>; j &lt; n-i<span class="hljs-number">-1</span>; j++)
+<span class="hljs-keyword" style="color: rgb(0, 0, 255);">if</span> (arr[j] &gt; arr[j+<span class="hljs-number">1</span>])
+swap(&amp;arr[j], &amp;arr[j+<span class="hljs-number">1</span>]);
+}
+
+<span class="hljs-comment" style="color: green;">/* Function to print an array */</span>
+<span class="hljs-function"><span class="hljs-keyword" style="color: rgb(0, 0, 255);">void</span> <span class="hljs-title" style="color: rgb(163, 21, 21);">printArray</span><span class="hljs-params">(<span class="hljs-keyword" style="color: rgb(0, 0, 255);">int</span> arr[], <span class="hljs-keyword" style="color: rgb(0, 0, 255);">int</span> size)</span>
+</span>{
+<span class="hljs-keyword" style="color: rgb(0, 0, 255);">int</span> i;
+<span class="hljs-keyword" style="color: rgb(0, 0, 255);">for</span> (i = <span class="hljs-number">0</span>; i &lt; size; i++)
+<span class="hljs-built_in" style="color: rgb(0, 0, 255);">cout</span> &lt;&lt; arr[i] &lt;&lt; <span class="hljs-string" style="color: rgb(163, 21, 21);">" "</span>;
+<span class="hljs-built_in" style="color: rgb(0, 0, 255);">cout</span> &lt;&lt; <span class="hljs-built_in" style="color: rgb(0, 0, 255);">endl</span>;
+}
+
+<span class="hljs-comment" style="color: green;">// Driver code</span>
+<span class="hljs-function"><span class="hljs-keyword" style="color: rgb(0, 0, 255);">int</span> <span class="hljs-title" style="color: rgb(163, 21, 21);">main</span><span class="hljs-params">()</span>
+</span>{
+<span class="hljs-keyword" style="color: rgb(0, 0, 255);">int</span> arr[] = {<span class="hljs-number">64</span>, <span class="hljs-number">34</span>, <span class="hljs-number">25</span>, <span class="hljs-number">12</span>, <span class="hljs-number">22</span>, <span class="hljs-number">11</span>, <span class="hljs-number">90</span>};
+<span class="hljs-keyword" style="color: rgb(0, 0, 255);">int</span> n = <span class="hljs-keyword" style="color: rgb(0, 0, 255);">sizeof</span>(arr)/<span class="hljs-keyword" style="color: rgb(0, 0, 255);">sizeof</span>(arr[<span class="hljs-number">0</span>]);
+bubbleSort(arr, n);
+<span class="hljs-built_in" style="color: rgb(0, 0, 255);">cout</span>&lt;&lt;<span class="hljs-string" style="color: rgb(163, 21, 21);">"Sorted array: \n"</span>;
+printArray(arr, n);
+<span class="hljs-keyword" style="color: rgb(0, 0, 255);">return</span> <span class="hljs-number">0</span>;
+}
+
+<span class="hljs-comment" style="color: green;">// This code is contributed by rathbhupendra</span>
+</pre>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="tonsoflib">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading"><br><strong>Tons of powerful libraries, frameworks.</strong><br><br></h2>
+                    <hr class="my-4">
+                    <p class="text-justify" style="padding: 10px 20px;"><br>To implement an AI model, complicated data structure and sophisticated algorithms are inevitable. If we do it from scratch, the time, work and cost will be required a lot and sometimes the project will be put off or even called off because of the viability of the project. Python, nevertheless, has expanded libraries and frameworks for AI to reduce time and effort for building AI projects through many purposes. Thus, scientists and engineers just need to focus on solving problems comprehensively and productively. Some typical libraries and frameworks for Python are:<br></p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-3 text-center">
+                    <div class="mx-auto service-box mt-5"><img src="assets/img/numpy.png" style="max-width: 225px;width: 100%;">
+                        <h3 class="mb-3">Numpy</h3>
+                        <p class="text-muted mb-0">Brings the computational power of languages<br></p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 text-center">
+                    <div class="mx-auto service-box mt-5"><img src="assets/img/tensorflow.png" style="max-width: 225px;width: 100%;">
+                        <h3 class="mb-3">Tensorflow</h3>
+                        <p class="text-muted mb-0">An end-to-end open source platform for machine learning<br></p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 text-center">
+                    <div class="mx-auto service-box mt-5"><img src="assets/img/opencv.png" style="max-width: 225px;width: 100%;height: 225px;min-height: 100%;">
+                        <h3 class="mb-3">OpenCV</h3>
+                        <p class="text-muted mb-0">Provides a real-time optimized Computer Vision library, tools<br><br></p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 text-center">
+                    <div class="mx-auto service-box mt-5"><img src="assets/img/nltk.png" style="max-width: 225px;width: 100%;height: 225px;min-height: 100%;">
+                        <h3 class="mb-3">NLTK</h3>
+                        <p class="text-muted mb-0">Building Python programs to work with human language data<br><br></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="platform_independence" class="bg-success">
+        <div class="container">
+            <div class="row">
+                <div class="col offset-lg-8 mx-auto text-center">
+                    <h2 class="text-white section-heading">Platform Independence</h2>
+                    <hr class="light my-4">
+                    <p class="text-justify text-faded mb-4">Python is supported by many platforms including Linux, Windows, and macOS. Python code can be executed for most common operating systems, that is Python software can be easily distributed and used on those operating systems without a Python interpreter.<br>Moreover, Python is also supported by Google in many aspects, and the most remarkable one is the powerful GPUs to train ML models. It is vital because not all developers have money to pay for high-priced hardware, especially students. That’s how Python can save cost and time for training models.<br><br></p>
+                </div>
+            </div>
+        </div>
+        <div style="text-align: center;padding: 5px;"><img src="assets/img/google%20colab.png" style="max-width: 783px;width: 100%;border-style: solid;"></div>
+    </section>
+    <section id="community">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading"><br><strong>Community and popularity</strong><br><br></h2>
+                    <hr class="my-4">
+                    <p class="text-justify" style="padding: 10px 20px;">What will you think when talking about the python’s community? Big, large, considerable, huge, enormous or massive .In the “Developer Survey 2020 by Stack Overflow”, Python was among the top 5 most popular programming languages. Online repositories contain over 140,000 custom-built Python software packages.<br><br>Python AI community is on the significant development in both quality and quantity across the globe. Hence, you will find not only a mass of documents but also invaluable advice and priceless guidance from pre-developers. Since there are many forums which focus on Python AI only, you can ask whenever you have problems with your models or errors when building it. One who had the same problem with you before will give hints and discussion.<br><br></p>
+                    <h4>Popularity of Programming Language in June 2021<br></h4>
+                    <div data-aos="fade" data-aos-delay="350"><canvas data-bss-chart="{&quot;type&quot;:&quot;pie&quot;,&quot;data&quot;:{&quot;labels&quot;:[&quot;Python&quot;,&quot;Java&quot;,&quot;JavaScript&quot;,&quot;C#&quot;,&quot;C++&quot;,&quot;Others&quot;],&quot;datasets&quot;:[{&quot;label&quot;:&quot;Revenue&quot;,&quot;backgroundColor&quot;:[&quot;#FBC02D&quot;,&quot;#283593 &quot;,&quot;#FFF176 &quot;,&quot;#8E24AA &quot;,&quot;rgb(155,47,47)&quot;,&quot;rgba(255,255,255,0.1)&quot;],&quot;borderColor&quot;:[&quot;#4e73df&quot;,&quot;#4e73df&quot;,&quot;#4e73df&quot;,&quot;#4e73df&quot;,&quot;#4e73df&quot;,&quot;#4e73df&quot;],&quot;data&quot;:[&quot;30.6&quot;,&quot;17.17&quot;,&quot;8.3&quot;,&quot;6.79&quot;,&quot;6.31&quot;,&quot;30.83&quot;]}]},&quot;options&quot;:{&quot;maintainAspectRatio&quot;:true,&quot;legend&quot;:{&quot;display&quot;:true},&quot;title&quot;:{}}}"></canvas></div><em>The statistics comes from:&nbsp;<a href="https://pypl.github.io/PYPL.html" target="_blank" style="color: var(--indigo);">PYPL</a>&nbsp;</em>
+                </div>
+            </div>
+        </div>
+        <section id="portfolio" class="p-0"></section>
+    </section>
+    <section id="contact" style="background: var(--yellow);">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h2 class="section-heading">We are ChungLabDigitalSys</h2>
+                    <hr class="my-4">
+                    <p class="mb-5">We come from CC01 HK202 at Ho Chi Minh University of Technology with 3 members of the group.</p>
+                </div>
+            </div>
+            <div class="col text-center align-self-center"><img src="assets/img/bachkhoa.png" style="max-width: 100%;"><span>Copyright<i class="fa fa-copyright"></i>2021. ChungLabDigitalSys at BKU with love<i class="fa fa-heart" style="color: var(--red);"></i><i class="fa fa-heart" style="color: var(--red);"></i><i class="fa fa-heart" style="color: var(--red);"></i>&nbsp;<br><br>&nbsp;</span></div>
+        </div>
+    </section>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/chart.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/creative.js"></script>
+</body>
+
+</html>
