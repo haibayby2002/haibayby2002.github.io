@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Home - Python</title>
-    <meta name="description" content="Artificial Intelligence has been around for over half a century now and its advancements are growing at an exponential rate. The demand for AI is at its peak.
+    <meta name="description" content="Artificial Intelligence has been around for over half a century now and its advancements are growing at an exponential rate. The demand for AI is at its peak. 
 With the rapid development of the hardware’s memory and processing capabilities, artificial intelligence nowadays is in exponential growth. Besides Big Data and IOT, AI plays an important role in our lives. We want a smart recommendation system, virtual assistant or even self-driving and so forth.">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800">
@@ -13,6 +13,43 @@ With the rapid development of the hardware’s memory and processing capabilitie
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+    <style>
+        .var-highlight{
+        color: #C0AD60;
+        }
+        .string-highlight{
+        color: rgba(253, 149, 90, 0.8);
+        }
+
+        #typewriter{
+            margin: 0;
+            font-family: "Courier New";
+        }
+
+        #typewriter:after{
+            content: "|";
+            animation: blink 500ms linear infinite alternate;
+        }
+
+        @-webkit-keyframes blink{
+        0%{opacity: 0;}
+        100%{opacity: 1;}
+        }
+
+        @-moz-keyframes blink{
+        0%{opacity: 0;}
+        100%{opacity: 1;}
+        }
+
+        @keyframes blink{
+        0%{opacity: 0;}
+        100%{opacity: 1;}
+        }
+
+        .myborder{
+            border-bottom: 1.2px solid steelblue;
+        }
+    </style>
 </head>
 
 <body id="page-top">
@@ -37,7 +74,7 @@ With the rapid development of the hardware’s memory and processing capabilitie
                 </div>
             </div>
             <div class="col-lg-8 mx-auto">
-                <p class="text-justify text-white text-faded mb-5" style="margin: 0 0 0px;background-color: #1b5590;border-style: solid;border-color: rgba(185,141,117,0.7);border-radius: 30px;padding: 20px;">Artificial Intelligence has been around for over half a century now and its advancements are growing at an exponential rate. The demand for AI is at its peak.<br>With the rapid development of the hardware’s memory and processing capabilities, artificial intelligence nowadays is in exponential growth. Besides Big Data and IOT, AI plays an important role in our lives. We want a smart recommendation system, virtual assistant or even self-driving and so forth.<br>However, the complexity of AI is really not small because it is not like traditional software. At the back of the AI model is an extremely smart algorithm which is necessary to use several suitable tools for analyzing and deciding what we need and which one is better. Python meets all the strict requirements above. Here are the reasons why:<br></p><a class="btn btn-primary btn-xl js-scroll-trigger" role="button" href="#services">Find Out More</a>
+                <p id="typewriter" class="text-justify text-white text-faded mb-5" style="margin: 0 0 0px;background-color: #1b5590;border-style: solid;border-color: rgba(185,141,117,0.7);border-radius: 30px;padding: 20px;">Artificial Intelligence has been around for over half a century now and its advancements are growing at an exponential rate. The demand for AI is at its peak. With the rapid development of the hardware’s memory and processing capabilities, artificial intelligence nowadays is in exponential growth. Besides Big Data and IOT, AI plays an important role in our lives. We want a smart recommendation system, virtual assistant or even self-driving and so forth. However, the complexity of AI is really not small because it is not like traditional software. At the back of the AI model is an extremely smart algorithm which is necessary to use several suitable tools for analyzing and deciding what we need and which one is better. Python meets all the strict requirements above. Here are the reasons why:</p><a class="btn btn-primary btn-xl js-scroll-trigger" role="button" href="#simplifying">Find Out More</a>
             </div>
         </div>
     </header>
@@ -53,8 +90,8 @@ With the rapid development of the hardware’s memory and processing capabilitie
         </div>
         <div class="container">
             <div class="row bg-white">
-                <div class="col-md-6">
-<pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(255, 255, 255); color: rgb(0, 0, 0);"><span class="hljs-comment" style="color: green;"># Python program for implementation of Bubble Sort</span>
+                <div class="col-md-6 myborder">
+<pre class="hljs" style="display: block; overflow-x: hidden; padding: 0.5em; background: rgb(255, 255, 255); color: rgb(0, 0, 0);"><span class="hljs-comment" style="color: green;"># Python program for implementation of Bubble Sort</span>
 
 <span class="hljs-function"><span class="hljs-keyword" style="color: rgb(0, 0, 255);">def</span> <span class="hljs-title" style="color: rgb(163, 21, 21);">bubbleSort</span><span class="hljs-params">(arr)</span>:</span>
 n = len(arr)
@@ -80,8 +117,8 @@ bubbleSort(arr)
 <span class="hljs-keyword" style="color: rgb(0, 0, 255);">for</span> i <span class="hljs-keyword" style="color: rgb(0, 0, 255);">in</span> range(len(arr)):
 <span class="hljs-keyword" style="color: rgb(0, 0, 255);">print</span> (<span class="hljs-string" style="color: rgb(163, 21, 21);">"%d"</span> %arr[i]),</pre>
                 </div>
-                <div class="col-md-6">
-<pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(255, 255, 255); color: rgb(0, 0, 0);"><span class="hljs-comment" style="color: green;">// C++ program for implementation of Bubble sort</span>
+                <div class="col-md-6 myborder">
+<pre class="hljs" style="display: block; overflow-x: hidden; padding: 0.5em; background: rgb(255, 255, 255); color: rgb(0, 0, 0);"><span class="hljs-comment" style="color: green;">// C++ program for implementation of Bubble sort</span>
 <span class="hljs-meta" style="color: rgb(43, 145, 175);">#<span class="hljs-meta-keyword">include</span> <span class="hljs-meta-string">&lt;bits/stdc++.h&gt;</span></span>
 <span class="hljs-keyword" style="color: rgb(0, 0, 255);">using</span> <span class="hljs-keyword" style="color: rgb(0, 0, 255);">namespace</span> <span class="hljs-built_in" style="color: rgb(0, 0, 255);">std</span>;
 
@@ -215,6 +252,93 @@ printArray(arr, n);
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
     <script src="assets/js/creative.js"></script>
+
+    <script>
+        // var i = 0;
+        // var txt = "Artificial Intelligence has been around for over half a century now and its advancements are growing at an exponential rate. The demand for AI is at its peak.\
+        // With the rapid development of the hardware’s memory and processing capabilities, artificial intelligence nowadays is in exponential growth. Besides Big Data and IOT, AI plays an important role in our lives. We want a smart recommendation system, virtual assistant or even self-driving and so forth.\
+        // However, the complexity of AI is really not small because it is not like traditional software. At the back of the AI model is an extremely smart algorithm which is necessary to use several suitable tools for analyzing and deciding what we need and which one is better. Python meets all the strict requirements above. Here are the reasons why:"; 
+        // var speed = 10; /* The speed/duration of the effect in milliseconds */
+
+        // function typeWriter() {
+        //     if (i < txt.length) {
+        //         document.getElementById("demo").innerHTML += txt.charAt(i);
+        //         i++;
+        //         setTimeout(typeWriter, speed);
+        //     }
+        // }
+        // typeWriter();
+        function setupTypewriter(t) {
+      var HTML = t.innerHTML;
+
+      t.innerHTML = "";
+
+      var cursorPosition = 0,
+          tag = "",
+          writingTag = false,
+          tagOpen = false,
+          typeSpeed = 5,
+        tempTypeSpeed = 0;
+
+      var type = function() {
+        
+          if (writingTag === true) {
+              tag += HTML[cursorPosition];
+          }
+
+          if (HTML[cursorPosition] === "<") {
+              tempTypeSpeed = 0;
+              if (tagOpen) {
+                  tagOpen = false;
+                  writingTag = true;
+              } else {
+                  tag = "";
+                  tagOpen = true;
+                  writingTag = true;
+                  tag += HTML[cursorPosition];
+              }
+          }
+          if (!writingTag && tagOpen) {
+              tag.innerHTML += HTML[cursorPosition];
+          }
+          if (!writingTag && !tagOpen) {
+              if (HTML[cursorPosition] === " ") {
+                  tempTypeSpeed = 0;
+              }
+              else {
+                  tempTypeSpeed = (Math.random() * typeSpeed) + 50;
+              }
+              t.innerHTML += HTML[cursorPosition];
+          }
+          if (writingTag === true && HTML[cursorPosition] === ">") {
+              tempTypeSpeed = (Math.random() * typeSpeed) + 50;
+              writingTag = false;
+              if (tagOpen) {
+                  var newSpan = document.createElement("span");
+                  t.appendChild(newSpan);
+                  newSpan.innerHTML = tag;
+                  tag = newSpan.firstChild;
+              }
+          }
+
+          cursorPosition += 1;
+          if (cursorPosition < HTML.length - 1) {
+              setTimeout(type, tempTypeSpeed);
+          }
+
+      };
+
+      return {
+          type: type
+      };
+  }
+
+  var typer = document.getElementById('typewriter');
+
+  typewriter = setupTypewriter(typewriter);
+
+  typewriter.type();
+    </script>
 </body>
 
 </html>
